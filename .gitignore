@@ -1,0 +1,40 @@
+# 依赖与虚拟环境
+.venv/
+.venv_build/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 打包中间产物
+build/
+dist/
+*.spec.bak
+
+# 下载下来的漫画（受版权保护，不入库）
+comic/
+_locktest/
+*.pdf
+
+# 运行时配置（记录本机锁定路径）
+comic_config.json
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+
+# WorkBuddy 项目缓存
+.workbuddy/
+
+# 本地保留、不入库
+cacert.pem
+demo.html
+docs/
+接口分析报告.md
+
+# 临时文件
+*.log
+*.tmp
+_thumbs.db
+.DS_Store
